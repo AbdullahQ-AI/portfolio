@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #0a0a0f;
+  --text: #ffffff;
+  --card: rgba(17,17,34,0.8);
+  --border: rgba(255,255,255,0.1);
+  --muted: #9ca3af;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  transition: background 0.3s, color 0.3s;
+}
+
+section {
+  background: var(--bg);
+  transition: background 0.3s;
+}
+
+.card-bg {
+  background: var(--card) !important;
+  border-color: var(--border) !important;
+}
+
+.text-muted {
+  color: var(--muted) !important;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb {
+  background: #00d4ff;
+  border-radius: 3px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow { box-shadow: 0 0 20px rgba(0,212,255,0.3); }
+.glow:hover { box-shadow: 0 0 40px rgba(0,212,255,0.6); }
+
+.card-3d {
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.card-3d:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(5deg) scale(1.02);
+}

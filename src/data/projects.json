@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Rice Plant Disease Detector",
+    "description": "AI-powered web app that detects 3 rice leaf diseases using MobileNetV2 Transfer Learning with 98.15% accuracy.",
+    "tech": ["Python", "TensorFlow", "MobileNetV2", "OpenCV", "Streamlit"],
+    "accuracy": "98.15%",
+    "category": "Computer Vision",
+    "emoji": "🌾",
+    "github": "https://github.com/AbdullahQ-AI/rice-disease-detector",
+    "demo": "",
+    "color": "from-green-500 to-emerald-700"
+  },
+  {
+    "id": 2,
+    "title": "MovieSent — Sentiment Analysis",
+    "description": "Dual approach movie review sentiment analysis using Logistic Regression and LSTM Neural Network with Flask web interface.",
+    "tech": ["Python", "Flask", "LSTM", "TF-IDF", "NLTK", "Scikit-learn"],
+    "accuracy": "90.33%",
+    "category": "NLP",
+    "emoji": "🎬",
+    "github": "https://github.com/AbdullahQ-AI/movieSent",
+    "demo": "",
+    "color": "from-purple-500 to-pink-700"
+  },
+  {
+    "id": 3,
+    "title": "FoodDetect AI",
+    "description": "Multi-food detection system using YOLOv8 object detection. Detects 36 food classes with bounding boxes in real-time.",
+    "tech": ["Python", "YOLOv8", "Flask", "OpenCV", "Ultralytics"],
+    "accuracy": "97.58%",
+    "category": "Object Detection",
+    "emoji": "🍕",
+    "github": "https://github.com/AbdullahQ-AI/foodDetection",
+    "demo": "",
+    "color": "from-orange-500 to-red-700"
+  },
+  {
+    "id": 4,
+    "title": "Social Media Automation",
+    "description": "Automated content pipeline for social media platforms. Private project focused on content automation and scheduling.",
+    "tech": ["Python", "Selenium", "API Integration", "Automation"],
+    "accuracy": "",
+    "category": "Automation",
+    "emoji": "🤖",
+    "github": "",
+    "demo": "",
+    "color": "from-blue-500 to-cyan-700"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "Abdullah Qadeer",
+  "title": "AI / ML Engineer",
+  "bio1": "I'm a BS Artificial Intelligence student passionate about building real-world AI solutions that make a difference.",
+  "bio2": "I specialize in Computer Vision, NLP, and Deep Learning. I love turning complex data into intelligent applications.",
+  "bio3": "Currently exploring automation, object detection, and building my portfolio of AI projects.",
+  "stats": [
+    { "number": "3+",   "label": "AI Projects"  },
+    { "number": "95%+", "label": "Avg Accuracy" },
+    { "number": "5th",  "label": "Semester"     }
+  ],
+  "education": {
+    "degree": "BS Artificial Intelligence",
+    "semester": "5th Semester — Currently Enrolled",
+    "focus": "ML, DL, Computer Vision, NLP"
+  },
+  "email": "abdullahqadeer.1203@gmail.com",
+  "github": "https://github.com/AbdullahQ-AI",
+  "linkedin": "https://linkedin.com"
+}
